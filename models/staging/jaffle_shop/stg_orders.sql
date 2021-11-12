@@ -4,4 +4,4 @@
         order_date,
         status
 
-    from CHRISB.jaffle_shop.orders
+    from {{ source('jaffle_shop','orders')}}
